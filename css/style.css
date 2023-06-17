@@ -33,7 +33,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: var(--primary-soft-violet);
-  border-radius: 0.438rem;
+  border-radius: 0.5rem;
 }
 
 img {
