@@ -32,6 +32,12 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
+  background-color: var(--primary-soft-violet);
+  border-radius: 0.438rem;
+}
+
+img {
+  mix-blend-mode: multiply;
 }
 
 .img-mobile {
@@ -44,7 +50,7 @@ body {
   display: none;
 }
 
-.card::before {
+/* .card::before {
   position: absolute;
   content: "";
   top: 0;
@@ -53,7 +59,7 @@ body {
   height: 15rem;
   background-color: hsla(277, 100%, 37%, .4);
   border-radius: 0.438rem 0.438rem 0 0;
-}
+} */
 
 .card-info-section {
   width: 20.438rem; /* */
